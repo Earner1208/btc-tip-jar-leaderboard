@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>BTC Tip Jar Leaderboard</title>
+
+<style>
+
+body{
+font-family: Arial;
+background:#0f172a;
+color:white;
+text-align:center;
+padding:40px;
+}
+
+h1{
+font-size:40px;
+}
+
+table{
+margin:auto;
+border-collapse:collapse;
+width:60%;
+margin-top:30px;
+}
+
+th,td{
+padding:12px;
+border-bottom:1px solid #333;
+}
+
+th{
+background:#111827;
+}
+
+button{
+padding:10px 20px;
+background:#f7931a;
+border:none;
+color:white;
+font-size:16px;
+cursor:pointer;
+border-radius:6px;
+}
+
+button:hover{
+opacity:0.9;
+}
+
+.tipbox{
+margin-top:40px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>BTC Tip Jar Leaderboard</h1>
+
+<p>Support creators using Bitcoin micro-tips.</p>
+
+<table>
+
+<tr>
+<th>Rank</th>
+<th>Creator</th>
+<th>Total BTC</th>
+</tr>
+
+<tr>
+<td>🥇 1</td>
+<td>Alice</td>
+<td>0.005 BTC</td>
+</tr>
+
+<tr>
+<td>🥈 2</td>
+<td>Bob</td>
+<td>0.003 BTC</td>
+</tr>
+
+<tr>
+<td>🥉 3</td>
+<td>Charlie</td>
+<td>0.001 BTC</td>
+</tr>
+
+</table>
+
+<div class="tipbox">
+
+<h2>Send a Tip</h2>
+
+<input placeholder="Creator name" id="creator">
+
+<br><br>
+
+<input placeholder="BTC amount" id="amount">
+
+<br><br>
+
+<button onclick="sendTip()">Send BTC Tip</button>
+
+</div>
+
+<script>
+
+function sendTip(){
+
+let creator=document.getElementById("creator").value
+let amount=document.getElementById("amount").value
+
+alert("Tip sent to "+creator+" : "+amount+" BTC (Demo Mode)")
+
+}
+
+</script>
+
+</body>
+</html>
