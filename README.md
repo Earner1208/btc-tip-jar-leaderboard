@@ -1,4 +1,5 @@
 # BTC Tip Jar Leaderboard
+Built with Vibecode + Bob AI for the OP_NET Builder Competition.
 
 ## 🚀 Overview
 
