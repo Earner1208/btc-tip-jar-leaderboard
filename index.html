@@ -1,123 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8">
 <title>BTC Tip Jar Leaderboard</title>
-
 <style>
-
 body{
-font-family: Arial;
+font-family:Arial;
 background:#0f172a;
 color:white;
 text-align:center;
 padding:40px;
 }
 
-h1{
-font-size:40px;
-}
-
-table{
+.container{
+max-width:700px;
 margin:auto;
-border-collapse:collapse;
-width:60%;
-margin-top:30px;
 }
 
-th,td{
-padding:12px;
-border-bottom:1px solid #333;
-}
-
-th{
-background:#111827;
+.card{
+background:#1e293b;
+padding:20px;
+margin:10px;
+border-radius:10px;
 }
 
 button{
-padding:10px 20px;
 background:#f7931a;
 border:none;
+padding:10px 20px;
 color:white;
-font-size:16px;
-cursor:pointer;
 border-radius:6px;
+cursor:pointer;
 }
-
-button:hover{
-opacity:0.9;
-}
-
-.tipbox{
-margin-top:40px;
-}
-
 </style>
-
 </head>
 
 <body>
 
-<h1>BTC Tip Jar Leaderboard</h1>
+<div class="container">
 
-<p>Support creators using Bitcoin micro-tips.</p>
+<h1>⚡ BTC Tip Jar Leaderboard</h1>
+<p>Support creators with Bitcoin tips.</p>
 
-<table>
-
-<tr>
-<th>Rank</th>
-<th>Creator</th>
-<th>Total BTC</th>
-</tr>
-
-<tr>
-<td>🥇 1</td>
-<td>Alice</td>
-<td>0.005 BTC</td>
-</tr>
-
-<tr>
-<td>🥈 2</td>
-<td>Bob</td>
-<td>0.003 BTC</td>
-</tr>
-
-<tr>
-<td>🥉 3</td>
-<td>Charlie</td>
-<td>0.001 BTC</td>
-</tr>
-
-</table>
-
-<div class="tipbox">
-
-<h2>Send a Tip</h2>
-
-<input placeholder="Creator name" id="creator">
-
-<br><br>
-
-<input placeholder="BTC amount" id="amount">
-
-<br><br>
-
-<button onclick="sendTip()">Send BTC Tip</button>
-
+<div class="card">
+<h3>🥇 CreatorA</h3>
+<p>Total Tips: 0.012 BTC</p>
+<button>Send Tip</button>
 </div>
 
-<script>
+<div class="card">
+<h3>🥈 CreatorB</h3>
+<p>Total Tips: 0.008 BTC</p>
+<button>Send Tip</button>
+</div>
 
-function sendTip(){
+<div class="card">
+<h3>🥉 CreatorC</h3>
+<p>Total Tips: 0.005 BTC</p>
+<button>Send Tip</button>
+</div>
 
-let creator=document.getElementById("creator").value
-let amount=document.getElementById("amount").value
-
-alert("Tip sent to "+creator+" : "+amount+" BTC (Demo Mode)")
-
-}
-
-</script>
+</div>
 
 </body>
 </html>
