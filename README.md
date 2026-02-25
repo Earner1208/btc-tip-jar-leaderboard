@@ -1,5 +1,9 @@
 # BTC Tip Jar Leaderboard
-Built with Vibecode + Bob AI on OP_NET Testnet for the OP_NET Builder Competition.
+Built with Vibecode + Bob AI for the OP_NET Builder Competition.
+
+A social Bitcoin tipping application where users can support creators and compete on a transparent BTC leaderboard.
+
+---
 
 ## 🚀 Overview
 
@@ -9,17 +13,11 @@ The project focuses on driving real Bitcoin utility through simple, social micro
 
 ---
 
-## 📸 Demo
-
-Prototype interface of the BTC Tip Jar Leaderboard.
-
-![App Screenshot](screenshot.png)
-
----
-
 ## ❗ Problem
 
 Most Bitcoin applications focus on trading or complex DeFi. There is limited infrastructure that encourages everyday social usage of BTC.
+
+Creators often rely on centralized platforms for monetization.
 
 ---
 
@@ -32,14 +30,7 @@ BTC Tip Jar Leaderboard introduces:
 - 👤 Creator tip tracking  
 - 🔍 Transparent on-chain activity  
 
----
-
-## ⚙️ How It Works
-
-1. A user connects their wallet.
-2. The user sends a BTC tip to a creator.
-3. The transaction is recorded.
-4. The leaderboard updates automatically based on total tips received.
+This encourages community engagement while showcasing real Bitcoin usage.
 
 ---
 
@@ -53,6 +44,40 @@ BTC Tip Jar Leaderboard introduces:
 
 ---
 
+## 📸 Demo Screenshot
+
+Example UI preview of the leaderboard interface.
+
+<img width="800" alt="BTC Tip Jar Leaderboard UI" src="screenshot.png">
+
+---
+
+## ⚙️ How It Works
+
+1. User connects their Bitcoin wallet
+2. Select a creator profile
+3. Send a small BTC tip
+4. Transaction is recorded on-chain
+5. Leaderboard updates based on total tips received
+
+---
+
+## 🏗 Tech Stack (Planned)
+
+Frontend  
+- React
+
+Backend  
+- Node.js
+
+Blockchain  
+- Bitcoin Layer 1
+
+AI Development  
+- Vibecode + Bob AI
+
+---
+
 ## 🔮 Future Roadmap
 
 - Weekly top-tipper rewards  
@@ -62,23 +87,26 @@ BTC Tip Jar Leaderboard introduces:
 
 ---
 
-## 🏗 Tech Stack (Planned)
-
-- Frontend: React  
-- Backend: Node.js  
-- Bitcoin Integration: Native Bitcoin L1  
-
----
-
 ## 👨‍💻 Development Status
 
 🚧 Early-stage prototype being built for Vibecode Challenge.
 
+Current focus:
+- MVP interface
+- Tip transaction logic
+- Leaderboard data structure
+
 ---
 
-## 🏁 Built For
+## 🤝 Contributing
 
-Vibecode OP_NET Builder Competition using Bob AI.
+Contributions and suggestions are welcome.
+
+If you'd like to improve this project:
+
+1. Fork the repository
+2. Create a feature branch
+3. Submit a pull request
 
 ---
 
