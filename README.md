@@ -48,33 +48,33 @@ This encourages community engagement while showcasing real Bitcoin usage.
 
 Example UI preview of the leaderboard interface.
 
-<img width="800" alt="BTC Tip Jar Leaderboard UI" src="screenshot.png">
+<img width="800" alt="BTC Tip Jar Leaderboard UI" src="file_00000000fcd472069cfba47cc0098e78.png">
 
 ---
 
 ## ⚙️ How It Works
 
-1. User connects their Bitcoin wallet
-2. Select a creator profile
-3. Send a small BTC tip
-4. Transaction is recorded on-chain
-5. Leaderboard updates based on total tips received
+1. User connects their Bitcoin wallet  
+2. Select a creator profile  
+3. Send a small BTC tip  
+4. Transaction is recorded on-chain  
+5. Leaderboard updates based on total tips received  
 
 ---
 
 ## 🏗 Tech Stack (Planned)
 
 Frontend  
-- React
+- React  
 
 Backend  
-- Node.js
+- Node.js  
 
 Blockchain  
-- Bitcoin Layer 1
+- Bitcoin Layer 1  
 
 AI Development  
-- Vibecode + Bob AI
+- Vibecode + Bob AI  
 
 ---
 
@@ -92,9 +92,10 @@ AI Development
 🚧 Early-stage prototype being built for Vibecode Challenge.
 
 Current focus:
-- MVP interface
-- Tip transaction logic
-- Leaderboard data structure
+
+- MVP interface  
+- Tip transaction logic  
+- Leaderboard data structure  
 
 ---
 
@@ -104,9 +105,9 @@ Contributions and suggestions are welcome.
 
 If you'd like to improve this project:
 
-1. Fork the repository
-2. Create a feature branch
-3. Submit a pull request
+1. Fork the repository  
+2. Create a feature branch  
+3. Submit a pull request  
 
 ---
 
