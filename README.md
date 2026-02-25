@@ -1,11 +1,19 @@
 # BTC Tip Jar Leaderboard
-Built with Vibecode + Bob AI for the OP_NET Builder Competition.
+Built with Vibecode + Bob AI on OP_NET Testnet for the OP_NET Builder Competition.
 
 ## 🚀 Overview
 
 BTC Tip Jar Leaderboard is a lightweight social tipping application built for Bitcoin Layer 1. It enables users to send small BTC tips to creators and track engagement through a transparent public leaderboard.
 
 The project focuses on driving real Bitcoin utility through simple, social micro-transactions.
+
+---
+
+## 📸 Demo
+
+Prototype interface of the BTC Tip Jar Leaderboard.
+
+![App Screenshot](screenshot.png)
 
 ---
 
@@ -23,6 +31,15 @@ BTC Tip Jar Leaderboard introduces:
 - 🏆 Public leaderboard rankings  
 - 👤 Creator tip tracking  
 - 🔍 Transparent on-chain activity  
+
+---
+
+## ⚙️ How It Works
+
+1. A user connects their wallet.
+2. The user sends a BTC tip to a creator.
+3. The transaction is recorded.
+4. The leaderboard updates automatically based on total tips received.
 
 ---
 
@@ -56,6 +73,12 @@ BTC Tip Jar Leaderboard introduces:
 ## 👨‍💻 Development Status
 
 🚧 Early-stage prototype being built for Vibecode Challenge.
+
+---
+
+## 🏁 Built For
+
+Vibecode OP_NET Builder Competition using Bob AI.
 
 ---
 
